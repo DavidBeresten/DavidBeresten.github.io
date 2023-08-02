@@ -1,31 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>My Website</title>
-</head>
-<body>
-    <div class="sidebar">
-      <img class="head" src="images/head.png" width="200px">
-      <h3>UNRESPONSIVE</h3>
-      <ul class="text">
-        <a href="#">HOME</a>
-        <a href="#">EXPERIENCE</a>
-        <a href="#">EDUCATION</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">SKILLS</a>
-        <a href="#">FUN FACTS</a>
-      </ul>
-      <ul class="icons">
-        <a href="https://github.com/DavidBeresten" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-        <a href="https://www.youtube.com/channel/UC6JJIcYY-W5pTUozLJW2o8Q" target="_blank"><box-icon name='youtube' type='logo' ></box-icon></a>
-        <a href="https://www.instagram.com/davidberesten/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
-        <a href="https://www.facebook.com/profile.php?id=100011327912426" target="_blank"><box-icon name='facebook' type='logo' ></box-icon></a>
-      </ul>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md bg-info fixed-top">
+      <div class="container">
+          <a href="https://github.com/DavidBeresten" target="_blank" class="navbar-brand link-primary">David Beresten</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#About" class="nav-link link-primary">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Skills" class="nav-link link-primary">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Stats" class="nav-link link-primary">Stats</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Contact" class="nav-link link-primary">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Project" class="nav-link link-primary">Projects</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!--ABOUT-->
+
+    <section class="bg-info text-center p-5 text-primary" id="About">
+      <div class="container">
+        <h1>ABOUT ME</h1>
+        <div class="d-lg-flex pt-5 align-items-center">
+          <img class="img-fluid w-50" src="images/me2.jpg">
+          <div class="flex-column lead p-5">
+            <h4>Hello I am David.</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In qui deleniti dolores nesciunt nihil aspernatur, mollitia accusamus laudantium, numquam nulla eos eveniet quae sunt quas minus dolorem iste facere adipisci.</p>
+            <h3>EDUCATION</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus, maiores odit corporis iusto iure consequuntur, quibusdam ipsum omnis esse ut quia cupiditate in! Accusantium nihil magnam esse, tenetur laboriosam, adipisci nam, corporis similique provident earum sequi vero. Accusamus corrupti dolor cum quis laboriosam quas odit sapiente vitae error aspernatur?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eligendi debitis odit sit, ex iusto velit dolor excepturi quaerat dicta, porro, quibusdam veritatis delectus quo quos doloremque officiis reiciendis natus.
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+
+    <section class="text-center p-5 d-lg-flex m-5" id="Skills">
+      <div class="container">
+        <h1>MY SKILLS</h1>
+            <box-icon type='logo' name='python'></box-icon>
+            <box-icon name='javascript' type='logo' ></box-icon>
+            <box-icon name='java' type='logo' ></box-icon>
+            <box-icon name='nodejs' type='logo' ></box-icon>
+            <box-icon name='html5' type='logo' ></box-icon>
+            <box-icon name='css3' type='logo' ></box-icon>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis magni laudantium aspernatur dignissimos cum. Natus, itaque reiciendis ratione aut veniam tempora obcaecati ab sunt quae mollitia dolorum iste deserunt? Sunt sit molestiae molestias vitae inventore laboriosam tenetur est numquam consectetur dolorum libero voluptate dicta, quasi error dolore sapiente amet cum provident? Magni fugiat nihil earum non adipisci. Laboriosam maxime beatae rem, facere neque vel iure corporis magnam commodi quibusdam alias ea iste in maiores praesentium perferendis vitae doloremque ab ipsum nemo, officiis explicabo. Officiis repellendus molestiae at possimus omnis quisquam molestias! A ipsa natus ratione iure obcaecati. Expedita, architecto. Omnis sit totam commodi expedita, suscipit dolor, ab impedit rerum fugit quaerat amet ipsa dolorem reprehenderit! Ullam debitis adipisci nesciunt animi, pariatur optio tempore amet unde similique repudiandae rerum repellendus, qui dolores explicabo sunt, sed saepe officia nobis modi labore numquam. Tenetur labore unde aliquid obcaecati itaque. Officiis autem, id sit cupiditate facilis est aliquam distinctio neque ducimus quas facere voluptatibus iure aliquid et reiciendis sunt? Eaque autem repellat sint minus. Dolor voluptatum in officia porro culpa nulla at consequuntur ad accusantium, reiciendis odit magni error saepe cupiditate iste, neque quisquam rem obcaecati consectetur ullam molestiae deserunt sapiente dicta. Odio. </p>
+      </div>
+    </section>
+
+
+    <!--STATS-->
+
+    <section class="text-center p-5 d-lg-flex bg-info" id="Stats">
+      <div class="container">
+        <h1>MY STATS</h1>
+        <div class="row mt-5 text-primary">
+          <div class="col-lg">
+            <h3>When I Started</h3>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident at veniam libero ut distinctio dolorum blanditiis alias laudantium adipisci. Aliquid maxime corrupti reprehenderit nihil rerum, distinctio atque veniam nam dignissimos!</p>
+          </div>
+          <div class="col-lg">
+            <h3>Amount of Projects</h3>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident at veniam libero ut distinctio dolorum blanditiis alias laudantium adipisci. Aliquid maxime corrupti reprehenderit nihil rerum, distinctio atque veniam nam dignissimos!</p>
+          </div>
+          <div class="col-lg">
+            <h3>Courses Taken</h3>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident at veniam libero ut distinctio dolorum blanditiis alias laudantium adipisci. Aliquid maxime corrupti reprehenderit nihil rerum, distinctio atque veniam nam dignissimos!</p>
+          </div>
+          <div class="col-lg">
+            <h3>My Goals</h3>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident at veniam libero ut distinctio dolorum blanditiis alias laudantium adipisci. Aliquid maxime corrupti reprehenderit nihil rerum, distinctio atque veniam nam dignissimos!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
 </html>
